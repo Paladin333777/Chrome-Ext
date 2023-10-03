@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Focus",
+    "version": "1.0",
+    "description": "This Chrome Exstention will help you with procrastination and focus. From now on you will stop being distracted from Youtube videos that take up your time.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["./main.js"]
+        }
+
+    ]
+
+}
+
